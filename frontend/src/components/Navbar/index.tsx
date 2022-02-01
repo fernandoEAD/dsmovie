@@ -10,9 +10,6 @@ function Navbar(){
             <h1>DSMovie</h1>
             <a href="https://github.com/fernandoEAD">
                 <div className="dsmovie-contact-container">
-
-                </div>
-              <div>
                 <GithubIcon />
                 <p className="dsmovie-contact-link">devsuperior</p>
               </div>
