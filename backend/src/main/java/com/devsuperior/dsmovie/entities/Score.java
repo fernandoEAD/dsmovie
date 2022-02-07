@@ -11,7 +11,6 @@ public class Score {
 
 	@EmbeddedId
 	private ScorePK id = new ScorePK();
-	
 	private Double value;
 	
 	public Score() {
@@ -37,5 +36,7 @@ public class Score {
 		this.value = value;
 	}
 	
-	
+	public void setUser(User user) {
+		id.setUser(user);
+	}
 }
